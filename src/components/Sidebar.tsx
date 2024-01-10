@@ -184,7 +184,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                                 (isActive && '!text-white')
                               }
                             >
-                              eCommerce
+                             Upcoming Meetings
                             </NavLink>
                           </li>
                         </ul>
@@ -218,7 +218,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       fill=""
                     />
                   </svg>
-                  Calendar
+                  Meeting
                 </NavLink>
               </li>
               {/* <!-- Menu Item Calendar --> */}
