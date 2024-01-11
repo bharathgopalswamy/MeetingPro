@@ -64,9 +64,13 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
     >
       {/* <!-- SIDEBAR HEADER --> */}
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-        <NavLink to="/">
-          <img src={Logo} alt="Logo" />
-        </NavLink>
+  <NavLink to="/">
+    <h1 className='text-lg lg:text-xl font-mono text-white dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-300 transition duration-300'>
+      EasyTransPro
+    </h1>
+  </NavLink>
+
+
 
         <button
           ref={trigger}
